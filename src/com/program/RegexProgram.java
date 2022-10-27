@@ -13,6 +13,6 @@ public class RegexProgram {
 public static void main(String[] args) {
 	System.out.println("Welcome To Regex Program");
 	RegexProgram obj=new RegexProgram();
-	obj.regexRunner("^[9]{1}[1]{1}[ ]{1}[0-9]{10}$", "91 7776040800");
+	obj.regexRunner("^[A-Za-z]{8,}$", "Password");
 }
 }
