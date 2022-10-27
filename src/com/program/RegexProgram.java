@@ -13,6 +13,6 @@ public class RegexProgram {
 public static void main(String[] args) {
 	System.out.println("Welcome To Regex Program");
 	RegexProgram obj=new RegexProgram();
-	obj.regexRunner("^[a-z]{3}[.]?[a-z]?[@#$&]{1}[a-z]{2}[.]{1}[a-z]{2}[.]{1}[a-z]{2}$", "abc@bi.co.in");
+	obj.regexRunner("^[9]{1}[1]{1}[ ]{1}[0-9]{10}$", "91 7776040800");
 }
 }
