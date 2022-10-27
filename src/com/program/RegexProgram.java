@@ -13,6 +13,6 @@ public class RegexProgram {
 public static void main(String[] args) {
 	System.out.println("Welcome To Regex Program");
 	RegexProgram obj=new RegexProgram();
-	obj.regexRunner("^[A-Z]+[A-Za-z]{7,}$", "Password");
+	obj.regexRunner("^[A-Z]+[A-Za-z]{7,}[0-9]+$", "Password12345");
 }
 }
